@@ -28,7 +28,7 @@ void fusionner(int *t,int *t2, int *tFusion,int n,int n2 ){
     }
 
 }
-void ex4(){
+void main(){
     int *t;
     int n;
     int *t2;

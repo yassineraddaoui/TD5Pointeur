@@ -71,7 +71,11 @@
 	<crtdefs.h>
 	<mm_malloc.h>
 
-1669904623 source:c:\users\yassin\desktop\td5pointeur\ex2.c
+1669911536 source:c:\users\yassin\desktop\td5pointeur\ex2.c
+	<stdio.h>
+	<stdlib.h>
+
+1669905061 source:c:\users\yassin\desktop\td5pointeur\ex3.c
 	<stdio.h>
 	<stdlib.h>
 

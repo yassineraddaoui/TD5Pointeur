@@ -8,10 +8,11 @@ void tailleN(int *n){
     while(*n<1|| *n>20);
 }
 void afficher(int *tab,int n){
-    for (int i=0;i<n;i++){
-        printf("T[%d] = %d\n",i,*(tab+i));
-    }
     printf("-----------\n");
+    for (int i=0;i<n;i++){
+        printf("T[%d] = %d\t",i,*(tab+i));
+    }
+
 }
 void remplir(int *tab,int n){
     for(int i=0;i<n;i++){
@@ -24,12 +25,13 @@ void remplir(int *tab,int n){
 }
 int compresser(int* t, int n, int *t1){
     int count=0;
-    for (int i=1;i<n;i++){
+    for (int i=0;i<n;i++){
         if(*(t+i)!=*(t+i+1)){
             *(t1+count)=*(t+i);
             count++;
         }
     }
+
     return count;
 }
 int main(){
